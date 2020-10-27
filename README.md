@@ -27,4 +27,9 @@ plot(env_max,'g-','LineWidth',1);xlim([0 1024]); %env_max
 hold on;
 plot(env_min,'r-','LineWidth',1) %env_min
 
+#Zooms sur plot synchro
+linkaxes([h1,h2,h3]); %zoom synchronisé
+
+#squeeze
+t'as 3 plan rgb d'une image, tu fais squeeze, ça les mets tous els uns a cotes des auttres
 
