@@ -30,6 +30,11 @@ plot(env_min,'r-','LineWidth',1) %env_min
 #Zooms sur plot synchro
 linkaxes([h1,h2,h3]); %zoom synchronisé
 
+#Mettre figure direct plein ecran
+FigH = figure('Position', get(0, 'Screensize'));
+#La save
+saveas(FigH, 'Foo.png','png');
+
 #squeeze
 t'as 3 plan rgb d'une image, tu fais squeeze, ça les mets tous els uns a cotes des auttres
 
