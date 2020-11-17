@@ -38,3 +38,6 @@ saveas(FigH, 'Foo.png','png');
 #squeeze
 t'as 3 plan rgb d'une image, tu fais squeeze, ça les mets tous els uns a cotes des auttres
 
+#Mute Matlab
+beep off
+
